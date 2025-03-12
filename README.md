@@ -1,6 +1,8 @@
-**Overview of the project**
+**Overview of the project** 
+__________________________
 
 **Project Requirements**
+__________________________
 
 **Data Warehouse Development (Data Engineering)**
 
@@ -20,6 +22,7 @@ Scope: Focus on the latest dataset; historical data storage is not required.
 
 Documentation: Provide clear documentation for business users and analytics teams.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Analytics & Reporting (Data Analysis)**
 
@@ -35,6 +38,7 @@ Sales Trends – Analyze market trends and revenue patterns.
 
 These insights will equip stakeholders with key business metrics for strategic decision-making.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The project includes,
 
