@@ -1,4 +1,4 @@
--------------Creating database and schemas------------------
+--Creating database and schemas
 
 USE master;
 GO
