@@ -3,7 +3,9 @@
 **Project Requirements**
 
 Data Warehouse Development (Data Engineering)
+
 Objective:
+
 Build a modern SQL Server-based data warehouse to consolidate sales data for analytical reporting and data-driven decision-making.
 
 Specifications:
