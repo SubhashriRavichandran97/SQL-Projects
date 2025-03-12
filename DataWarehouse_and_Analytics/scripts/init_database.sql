@@ -1,21 +1,12 @@
---Creating database and schemas
+-- Creating database and schemas
 
-USE master;
-GO
+DROP DATABASE IF EXISTS DataWarehouse_Sales;
 
--- Create the 'DataWarehouse' database
-CREATE DATABASE DataWarehouse;
-GO
-
-USE DataWarehouse;
-GO
+-- Create the 'Sales DataWarehouse' database
+CREATE DATABASE DataWarehouse_Sales;
+USE DataWarehouse_Sales;
 
 -- Create the Schemas
 CREATE SCHEMA bronze;
-GO
-
 CREATE SCHEMA silver;
-GO
-
 CREATE SCHEMA gold;
-GO
