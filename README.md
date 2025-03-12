@@ -2,7 +2,7 @@
 
 **Project Requirements**
 
-Data Warehouse Development (Data Engineering)
+**Data Warehouse Development (Data Engineering)**
 
 Objective:
 
@@ -20,7 +20,8 @@ Scope: Focus on the latest dataset; historical data storage is not required.
 
 Documentation: Provide clear documentation for business users and analytics teams.
 
-Analytics & Reporting (Data Analysis)
+
+**Analytics & Reporting (Data Analysis)**
 
 Objective:
 
