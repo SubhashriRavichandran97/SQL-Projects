@@ -55,7 +55,7 @@ BEGIN
     SELECT '>> Truncating Table: crm_prd_info' AS Process_Description;
     TRUNCATE TABLE crm_prd_info;
     SELECT '>> Inserting Data Into: crm_prd_info' AS Process_Description;
-    LOAD DATA INFILE '/path/to/your/file/prd_info.csv'
+    LOAD DATA INFILE '/path/to/file/prd_info.csv'
     INTO TABLE crm_prd_info
     FIELDS TERMINATED BY ','
     LINES TERMINATED BY '\n'
@@ -68,7 +68,7 @@ BEGIN
     SELECT '>> Truncating Table: crm_sales_details' AS Process_Description;
     TRUNCATE TABLE crm_sales_details;
     SELECT '>> Inserting Data Into: crm_sales_details' AS Process_Description;
-    LOAD DATA INFILE '/path/to/your/file/sales_details.csv'
+    LOAD DATA INFILE '/path/to/file/sales_details.csv'
     INTO TABLE crm_sales_details
     FIELDS TERMINATED BY ','
     LINES TERMINATED BY '\n'
@@ -86,7 +86,7 @@ BEGIN
     SELECT '>> Truncating Table: erp_loc_a101' AS Process_Description;
     TRUNCATE TABLE erp_loc_a101;
     SELECT '>> Inserting Data Into: erp_loc_a101' AS Process_Description;
-    LOAD DATA INFILE '/path/to/your/file/loc_a101.csv'
+    LOAD DATA INFILE '/path/to/file/loc_a101.csv'
     INTO TABLE erp_loc_a101
     FIELDS TERMINATED BY ','
     LINES TERMINATED BY '\n'
@@ -99,7 +99,7 @@ BEGIN
     SELECT '>> Truncating Table: erp_cust_az12' AS Process_Description;
     TRUNCATE TABLE erp_cust_az12;
     SELECT '>> Inserting Data Into: erp_cust_az12' AS Process_Description;
-    LOAD DATA INFILE '/path/to/your/file/cust_az12.csv'
+    LOAD DATA INFILE '/path/to/file/cust_az12.csv'
     INTO TABLE erp_cust_az12
     FIELDS TERMINATED BY ','
     LINES TERMINATED BY '\n'
@@ -112,7 +112,7 @@ BEGIN
     SELECT '>> Truncating Table: erp_px_cat_g1v2' AS Process_Description;
     TRUNCATE TABLE erp_px_cat_g1v2;
     SELECT '>> Inserting Data Into: erp_px_cat_g1v2' AS Process_Description;
-    LOAD DATA INFILE '/path/to/your/file/px_cat_g1v2.csv'
+    LOAD DATA INFILE '/path/to/file/px_cat_g1v2.csv'
     INTO TABLE erp_px_cat_g1v2
     FIELDS TERMINATED BY ','
     LINES TERMINATED BY '\n'
