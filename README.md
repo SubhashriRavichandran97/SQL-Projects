@@ -2,8 +2,6 @@
 __________________________
 
 **Project Requirements**
-__________________________
-
 **Data Warehouse Development (Data Engineering)**
 
 Objective:
