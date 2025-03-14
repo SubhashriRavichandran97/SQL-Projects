@@ -1,11 +1,24 @@
--- create 3 schema for 3 layers (bronze,silver,gold)
+USE master;
+GO
 
--- Drop existing schema if they exist
-DROP SCHEMA IF EXISTS bronze;
-DROP SCHEMA IF EXISTS silver;
-DROP SCHEMA IF EXISTS gold;
+-- Drop and create the 'DataWarehouse' database
+IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
+    DROP DATABASE DataWarehouse;
+GO
 
--- Create the schema for each layer
+-- Create the 'DataWarehouse' database
+CREATE DATABASE DataWarehouse;
+GO
+
+USE DataWarehouse;
+GO
+
+-- Create Schemas
 CREATE SCHEMA bronze;
+GO
+
 CREATE SCHEMA silver;
+GO
+
 CREATE SCHEMA gold;
+GO
