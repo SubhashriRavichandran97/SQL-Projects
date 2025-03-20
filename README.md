@@ -43,7 +43,7 @@ The project includes,
 
 Data Architecture: Designed a modern data warehouse using Medallion Architecture with Bronze, Silver, and Gold layers.
 
-ETL Pipelines: Extracted, transformed, and loaded data from source systems into the warehouse.
+ETL Pipeline: Extracted, transformed, and loaded data from source systems into the warehouse.
 
 Data Modeling: Developed fact and dimension tables optimized for analytical queries.
 
